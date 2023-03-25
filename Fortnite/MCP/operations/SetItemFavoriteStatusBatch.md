@@ -4,9 +4,10 @@
 **Profiles**: `athena`, `campaign`
 
 ## Body
+
 ```js
 {
-    "itemIds": [], //array of the items guids
-    "itemFavStatus": [] //array of bools specifing new favorite state of the indexed item
+    "itemIds": [], // Array of the Item GUIDs
+    "itemFavStatus": [] // Array of booleans specifing new favorite state of the indexed Item
 }
 ```

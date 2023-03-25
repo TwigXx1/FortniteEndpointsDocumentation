@@ -1,11 +1,17 @@
 ## Fortnite Website - Promotion Status
 
-URL: https://www.epicgames.com/fortnite/api/promotion-status \
+URL: https://fortnite.com/api/promotion-status \
 Method: POST \
 Auth Required: Yes
 
 Payload:
 
-```js
-{"country":"AU", "promo":"testing123","locale":"en-AU"}
+```json
+{
+  "country": "AU",
+  "promo": "melody",
+  "locale": "en-AU"
+}
 ```
+
+This endpoint is now deprecated as of 26.01.2023 

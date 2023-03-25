@@ -4,10 +4,11 @@
 **Profiles**: `athena`
 
 ## Body
+
 ```js
 {
-    "nodeId": "{nodeId}", //the rewards nodeId you want to open
-    "rewardGraphId": "{guid}", //the RewardGraphs GUID
-    "rewardCfg": "" //can be left empty
+    "nodeId": "", // The rewards nodeId you want to open
+    "rewardGraphId": "", // The RewardGraph Item GUID
+    "rewardCfg": "" // Can be left empty
 }
 ```

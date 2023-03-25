@@ -1,12 +1,12 @@
 # MarkItemSeen
 
 **Description**: `Mark Items as seen (Bulk)` \
-**Profiles**: `ANY`
+**Profiles**: `athena`, `campaign`, `common_core`
 
 ## Body
 
 ```js
 {
-    "itemIds": [] // Item Guids
+    "itemIds": [] // Item GUIDs
 }
 ```

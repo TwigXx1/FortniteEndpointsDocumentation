@@ -8,8 +8,8 @@
 
 ```js
 {
-    "islandId": "", // Island Item Guid
-    "locale": "en", //e.g. en, de
-    "newTitle": "NEW ISLAND 2"
+    "islandId": "", // Island GUID
+    "locale": "en", // e.g. en, de
+    "newTitle": "NEW ISLAND 2" // The Name of the duplicated Island
 }
 ```
