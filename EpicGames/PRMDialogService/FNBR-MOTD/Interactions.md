@@ -2,7 +2,7 @@
 
 URL: https://prm-dialogue-public-api-prod.edea.live.use1a.on.epicgames.com/api/v1/fortnite-br/surfaces/motd/interactions \
 Method: POST \
-Auth Required: Yes (eg1)
+Auth Required: Yes (Account - `eg1`)
 
 ```json
 {
@@ -31,3 +31,9 @@ Auth Required: Yes (eg1)
 `events[].contentId`: Related to the [MOTD](./MOTD.md)'s Item<br/>
 `events[].tcId`: Related to the [MOTD](./MOTD.md)'s Item<br/>
 `events[].timestamp`: When the MOTD Item got viewed (likely current Date)<br/>
+
+---
+
+_Example Response_
+
+`Status 200` (But no Content)

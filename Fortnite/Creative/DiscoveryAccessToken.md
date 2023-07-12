@@ -4,13 +4,27 @@ URL: https://fngw-mcp-gc-livefn.ol.epicgames.com/fortnite/api/discovery/accessTo
 Method: GET \
 Auth Required: Yes (`fortnite:discovery:fortnite READ`)
 
-## Path Parameter
+## Path Parameters
 
 `branch`: Front Part of Build Id, e.g. `++Fortnite+Release-22.20`
 
 <br/>
 
-## Archive
+---
+
+_Example Response_
+
+```json
+{
+  "branchName": "++Fortnite+Release-24.40",
+  "appId": "Fortnite",
+  "token": "8+CvZNO9yeju1pIbMO+fnd2lPaKbehwvDklVVOsT8YI="
+}
+```
+
+---
+
+**Archive**
 
 | Branch                   | Token                                        | Source                                                                                                             |
 | ------------------------ | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -26,3 +40,7 @@ Auth Required: Yes (`fortnite:discovery:fortnite READ`)
 | ++Fortnite+Release-24.00 | q4yIwerJTBqULn1Zr5vap88fRpHVMIUM/+gnqMSuVp4= | Lele                                                                                                               |
 | ++Fortnite+Release-24.01 | WTwbDh+2U0liC1/cZ8D3JA9rtiKL3I9vshEAuRkQVoE= | Lele                                                                                                               |
 | ++Fortnite+Release-24.10 | PlD/XZ8o9qc16ZxsrY7fxgekeIMHnwvETpyaAvmu0JY= | Lele                                                                                                               |
+| ++Fortnite+Release-24.20 | 385ZAOqysxBtVpGkVYJXYh5/Ok3pc3ppH0VtHLaxxjk= | Lele                                                                                                               |
+| ++Fortnite+Release-24.30 | 3j//iXW06VbpPDsIxi2gNH6OUOVcvBsIyeX0ALbRaOg= | Lele                                                                                                               |
+| ++Fortnite+Release-24.40 | 8+CvZNO9yeju1pIbMO+fnd2lPaKbehwvDklVVOsT8YI= | Lele                                                                                                               |
+| ++Fortnite+Release-25.00 | swlP7Zamc+N3W8SZAJ1kPgfg7d9pX3cZXqF+dElYCiw= | Lele                                                                                                               |

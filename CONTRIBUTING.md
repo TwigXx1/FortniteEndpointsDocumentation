@@ -4,9 +4,10 @@
 
 - Go into the Markdown Source Code to get the actual formatting
 - **Only** contribute if you actually know what you are doing and talking about on the API / Operation
-- If you modify multible files **dont** make a commit for each file
+- If you modify multiple files **dont** make a commit for each file, rather for each service
 - Good Naming for PRs, Issues, Commits... (**NOT** modified file.md, say what you want / changed)
 - Markdown formatting (Visual Studio Code)
+- Include an example response (shortened)
 
 <br/>
 
@@ -51,9 +52,19 @@ Auth Required: {Yes/No} ({Permission})
 
 `<key>`: `<description>`
 
-<br/>
-
 ---
+
+> `---` Horizontal Line
+
+`*Example Response*`
+
+[JSON] Codeblock / Note which Status to expect if no content is returned
+
+```json
+{
+  "hello": "world"
+}
+```
 
 <br/>
 
